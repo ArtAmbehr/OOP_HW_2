@@ -14,7 +14,5 @@ public abstract class Animal {
     @Override
     public String toString() {
         return String.format("Рост: %d; Вес: %d; Цвет глаз: %s", this.height, this.weight, this.еyeColor);
-    }
-
-    
+    }    
 }
