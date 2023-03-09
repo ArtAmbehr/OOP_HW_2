@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Zoo {
     public static ArrayList<Animal> allAnimal = new ArrayList<>();
     {
-    allAnimal.add(new Cat("Касьян", "Сиамский", "Да", "Серый", "21.04.2014", 25, 7, "Серые", "да"));
+    allAnimal.add(new Cat("Касьян", "Сиамский", "Да", "", "21.04.2014", 25, 7, "Серые", "да"));
     allAnimal.add(new Tiger(1500, 45, "карие", "Африка", "01.07.2010"));
     allAnimal.add(new Dog("Бим", "Сеттер", "Нет", "Серый", "Неизвестно", 45, 35, "Черные", "Нет"));
     allAnimal.add(new Wolf(67, 45, "Серые", "Армения", "05.10.2012", "Да"));
